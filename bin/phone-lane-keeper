@@ -1,0 +1,236 @@
+#!/usr/bin/env python3
+"""phone-lane-keeper: self-healing ADB lane for the Pixel 9 Pro XL.
+
+Reactive, not just monitoring: watches `adb devices`; the moment the pinned
+Pixel drops, it rediscovers the wireless-debugging port with a sub-second
+parallel scan, reconnects, verifies with `mobilerun ping`, and appends a
+transition row to the lane ledger. Never touches other devices (SmartTV at
+10.0.0.225:5555, emulator-5554, etc.). Forward-only: every reconnect is a
+fresh `adb connect`, never a reset.
+
+Candidate hardening (2026-09-19):
+  - DEAD_PORTS (44933 = old dead wireless-debug endpoint) are explicitly
+    rejected even if the port shows open; a rejection row is logged.
+  - Candidate ORDER: pinned target first, then ascending discovered ports.
+  - Candidate VALIDATION per endpoint: connect, then prove identity via
+    `adb -l` (model Pixel_9_Pro_XL on the exact serial) AND
+    `getprop ro.product.model == "Pixel 9 Pro XL"`. A candidate that fails
+    identity is `adb disconnect`ed immediately and logged as rejected.
+  - Only an identity-proven candidate is pinned and logged as healed.
+
+Runs on awrawr-pc (the phone lane host). Ledger: ~/phone-lane/ledger.jsonl
+"""
+import json
+import os
+import socket
+import subprocess
+import sys
+import time
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
+
+PIXEL_IP = "10.0.0.77"
+MODEL_MATCH = "Pixel_9_Pro_XL"
+MODEL_GETPROP = "Pixel 9 Pro XL"
+# Known-dead endpoints: port shows reachable but the ADB service behind it is
+# gone. Connecting here is always wrong; reject and log.
+DEAD_PORTS = {44933}
+ADB = "/usr/bin/adb"
+MOBILERUN = os.path.expanduser("~/.local/bin/mobilerun")
+HOME = os.path.expanduser("~")
+LEDGER = os.path.join(HOME, "phone-lane", "ledger.jsonl")
+PIN_FILE = os.path.join(HOME, "phone-lane", "pinned_target")
+SCAN_START, SCAN_END = 30000, 50000
+SCAN_THREADS = 500
+POLL_SECS = 15
+
+
+def log(event, **kw):
+    os.makedirs(os.path.dirname(LEDGER), exist_ok=True)
+    row = {"ts": datetime.now(timezone.utc).isoformat(), "event": event, **kw}
+    with open(LEDGER, "a") as f:
+        f.write(json.dumps(row) + "\n")
+    print(json.dumps(row), flush=True)
+
+
+def sh(*args, timeout=20):
+    r = subprocess.run(args, capture_output=True, text=True, timeout=timeout)
+    return r.returncode, r.stdout, r.stderr
+
+
+def port_of(target):
+    try:
+        return int(target.rsplit(":", 1)[1])
+    except Exception:
+        return None
+
+
+def is_dead_port(port):
+    return port in DEAD_PORTS
+
+
+def adb_devices():
+    """Serials of currently-listed genuine Pixels (exact serial match)."""
+    _, out, _ = sh(ADB, "devices", "-l")
+    devs = []
+    for line in out.splitlines()[1:]:
+        if not line.strip():
+            continue
+        parts = line.split()
+        serial, state = parts[0], parts[1] if len(parts) > 1 else ""
+        if state == "device" and serial.startswith(PIXEL_IP) and MODEL_MATCH in line:
+            devs.append(serial)
+    return devs
+
+
+def identity_proven(target):
+    """Prove target is the real Pixel 9 Pro XL before trusting it."""
+    rc, out, _ = sh(ADB, "devices", "-l", timeout=10)
+    if rc != 0:
+        return False, "adb_devices_failed"
+    hit = None
+    for line in out.splitlines()[1:]:
+        if line.split() and line.split()[0] == target:
+            hit = line
+            break
+    if hit is None:
+        return False, "serial_not_listed"
+    if MODEL_MATCH not in hit:
+        return False, "model_mismatch_l"
+    rc2, model, _ = sh(ADB, "-s", target, "shell", "getprop", "ro.product.model",
+                       timeout=10)
+    model = (model or "").strip()
+    if rc2 != 0 or model != MODEL_GETPROP:
+        return False, f"getprop_model={model!r}"
+    return True, "ok"
+
+
+def scan_open_ports():
+    def probe(p):
+        s = socket.socket()
+        s.settimeout(0.4)
+        try:
+            s.connect((PIXEL_IP, p))
+            s.close()
+            return p
+        except Exception:
+            return None
+
+    ports = []
+    with ThreadPoolExecutor(SCAN_THREADS) as ex:
+        for r in ex.map(probe, range(SCAN_START, SCAN_END)):
+            if r:
+                ports.append(r)
+    return sorted(ports)
+
+
+def ordered_candidates():
+    """Pinned first, then ascending scan results, dead ports rejected."""
+    cands = []
+    seen = set()
+
+    def add(target):
+        if target and target not in seen:
+            seen.add(target)
+            cands.append(target)
+
+    p = pinned()
+    if p and p.startswith(PIXEL_IP):
+        pt = port_of(p)
+        if pt is not None and is_dead_port(pt):
+            log("dead_port_rejected", target=p, reason="pinned port is known-dead")
+        else:
+            add(p)
+
+    t0 = time.time()
+    open_ports = scan_open_ports()
+    scan_ms = int((time.time() - t0) * 1000)
+    for port in open_ports:
+        if is_dead_port(port):
+            log("dead_port_rejected", target=f"{PIXEL_IP}:{port}",
+                reason="known-dead endpoint open but rejected")
+            continue
+        add(f"{PIXEL_IP}:{port}")
+    return cands, scan_ms, open_ports
+
+
+def mobilerun_ok(target):
+    rc, out, _ = sh(MOBILERUN, "ping", "-d", target, timeout=30)
+    return rc == 0 and "good to go" in out
+
+
+def pin(target):
+    os.makedirs(os.path.dirname(PIN_FILE), exist_ok=True)
+    with open(PIN_FILE, "w") as f:
+        f.write(target + "\n")
+
+
+def pinned():
+    try:
+        return open(PIN_FILE).read().strip()
+    except Exception:
+        return None
+
+
+def heal():
+    """Full reactive reconnect. Returns target or None."""
+    t0 = time.time()
+    cands, scan_ms, open_ports = ordered_candidates()
+    log("heal_scan", candidates=cands, open_ports=open_ports,
+        scan_ms=scan_ms)
+    if not cands:
+        log("heal_failed", reason="no viable candidate ports",
+            heal_ms=int((time.time() - t0) * 1000))
+        return None
+    for target in cands:
+        pt = port_of(target)
+        if pt is not None and is_dead_port(pt):
+            log("dead_port_rejected", target=target, reason="dead port slipped through")
+            continue
+        sh(ADB, "connect", target, timeout=15)
+        time.sleep(1.5)
+        ok, why = identity_proven(target)
+        if not ok:
+            sh(ADB, "disconnect", target, timeout=10)
+            log("candidate_rejected", target=target, reason=why)
+            continue
+        ping = mobilerun_ok(target)
+        pin(target)
+        log("healed", target=target, identity="proven",
+            mobilerun_ping_ok=ping,
+            heal_ms=int((time.time() - t0) * 1000))
+        return target
+    log("heal_failed", reason="all candidates rejected",
+        heal_ms=int((time.time() - t0) * 1000))
+    return None
+
+
+def main():
+    once = "--once" in sys.argv
+    log("keeper_start", mode="once" if once else "daemon", pid=os.getpid())
+    # ensure lane is up right now (reactive on boot too)
+    if not adb_devices():
+        log("lane_down_on_start")
+        heal()
+    else:
+        devs = adb_devices()
+        t = devs[0] if devs else None
+        if t:
+            pin(t)
+        log("lane_up", target=t)
+    if once:
+        return
+    while True:
+        try:
+            devs = adb_devices()
+            if not devs:
+                log("lane_down_detected")
+                heal()
+            time.sleep(POLL_SECS)
+        except Exception as e:
+            log("keeper_error", err=str(e)[:200])
+            time.sleep(POLL_SECS)
+
+
+if __name__ == "__main__":
+    main()

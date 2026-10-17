@@ -1,0 +1,12 @@
+{
+ "ts": "2026-10-17T04:38:48.729058+00:00",
+ "battery_level": null,
+ "battery_status": null,
+ "plugged": null,
+ "screen": "",
+ "focused_app": "",
+ "thermal": "",
+ "network": "",
+ "mem_available": "",
+ "alerts": []
+}

@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""phone-vitals: live Pixel telemetry publisher with reactive thresholds.
+
+Polls the phone over ADB and publishes a JSON snapshot every 60s to
+~/phone-lane/vitals.jsonl (+ LATEST.json for fleet readers). Reactive rules:
+  - battery <= 20%  -> alert row + optionally enable battery saver
+  - thermal throttling detected -> alert row
+  - screen on/off transitions -> event row
+Forward-only: alerts are additive rows, never state rewrites.
+
+Runs on awrawr-pc. Usage: phone-vitals [--once] [--saver]  (--saver lets it
+engage battery saver on critical battery; default is alert-only)
+"""
+import json
+import os
+import subprocess
+import sys
+import time
+from datetime import datetime, timezone
+
+ADB = "/usr/bin/adb"
+HOME = os.path.expanduser("~")
+VITALS = os.path.join(HOME, "phone-lane", "vitals.jsonl")
+LATEST = os.path.join(HOME, "phone-lane", "vitals-latest.json")
+PIN_FILE = os.path.join(HOME, "phone-lane", "pinned_target")
+POLL_SECS = 60
+BATTERY_CRITICAL = 20
+
+
+def target():
+    try:
+        return open(PIN_FILE).read().strip()
+    except Exception:
+        return None
+
+
+def sh_shell(cmd, timeout=20):
+    t = target()
+    if not t:
+        return None
+    r = subprocess.run([ADB, "-s", t, "shell", cmd],
+                       capture_output=True, text=True, timeout=timeout)
+    return r.stdout if r.returncode == 0 else None
+
+
+def parse_kv(out, key):
+    for line in (out or "").splitlines():
+        if key in line and ":" in line:
+            try:
+                return line.split(":", 1)[1].strip()
+            except Exception:
+                pass
+    return None
+
+
+def snapshot():
+    snap = {"ts": datetime.now(timezone.utc).isoformat()}
+    bat = sh_shell("dumpsys battery")
+    snap["battery_level"] = parse_kv(bat, "level")
+    snap["battery_status"] = parse_kv(bat, "status")
+    snap["plugged"] = parse_kv(bat, "AC powered")
+    disp = sh_shell("dumpsys display | grep -E 'mScreenState=' | head -1")
+    snap["screen"] = (disp or "").strip()
+    fg = sh_shell("dumpsys activity activities | grep -E 'mFocusedApp' | head -1")
+    snap["focused_app"] = (fg or "").strip()[:160]
+    therm = sh_shell("dumpsys thermalservice | grep -iE 'throttl' | head -3")
+    snap["thermal"] = (therm or "").strip()[:200]
+    net = sh_shell("dumpsys connectivity | grep -E 'Active default network' | head -1")
+    snap["network"] = (net or "").strip()[:120]
+    mem = sh_shell("cat /proc/meminfo | grep -E 'MemAvailable'")
+    snap["mem_available"] = (mem or "").strip()
+    return snap
+
+
+def publish(snap, alerts):
+    os.makedirs(os.path.dirname(VITALS), exist_ok=True)
+    row = dict(snap)
+    row["alerts"] = alerts
+    with open(VITALS, "a") as f:
+        f.write(json.dumps(row) + "\n")
+    with open(LATEST, "w") as f:
+        f.write(json.dumps(row, indent=1) + "\n")
+
+
+def main():
+    once = "--once" in sys.argv
+    can_saver = "--saver" in sys.argv
+    prev_screen = None
+    while True:
+        try:
+            snap = snapshot()
+            alerts = []
+            try:
+                lvl = int(snap.get("battery_level") or 100)
+            except ValueError:
+                lvl = 100
+            if lvl <= BATTERY_CRITICAL:
+                alerts.append(f"battery_critical:{lvl}%")
+                if can_saver:
+                    sh_shell("settings put global low_power 1")
+                    alerts.append("battery_saver_engaged")
+            import re
+            therm_raw = snap.get("thermal") or ""
+            throttling = any(
+                "THROTTL" in ln and re.search(r"mStatus=([1-9])", ln)
+                for ln in therm_raw.splitlines()
+            )
+            if throttling:
+                alerts.append("thermal_throttling")
+            scr = snap.get("screen") or ""
+            if prev_screen is not None and scr != prev_screen:
+                alerts.append(f"screen_transition:{prev_screen}->{scr}")
+            prev_screen = scr
+            publish(snap, alerts)
+            print(json.dumps({"ts": snap["ts"], "battery": snap.get("battery_level"),
+                              "alerts": alerts}), flush=True)
+        except Exception as e:
+            print(json.dumps({"error": str(e)[:200]}), flush=True)
+        if once:
+            return
+        time.sleep(POLL_SECS)
+
+
+if __name__ == "__main__":
+    main()
