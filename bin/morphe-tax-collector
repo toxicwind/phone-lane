@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+"""morphe-tax-collector: Aura patch-state verifier + login-preservation guard.
+
+The "morphe tax": the Aura app on the Pixel is Morphe-patched (sideloaded).
+This tool verifies, on every run:
+  1. versionName / versionCode / lastUpdateTime / installerPackageName
+  2. PATCH DRIFT: sha256 of the installed APK vs the recorded baseline --
+     if Aura was updated over the patch (Play Store, manual install), the
+     hash changes and the tax is flagged as owed.
+  3. LOGIN PRESERVATION (Chris's standing order: the phone's local-storage
+     login must NEVER be removed): probes the app's data dir via run-as.
+     Only filenames/sizes are listed -- contents are never read.
+     Without root/debuggable build this is reported as unknown, never as ok.
+
+Baseline: ~/phone-lane/aura_baseline.json (written on first run with --init).
+Reports:  ~/phone-lane/morphe-tax.jsonl (append-only rows).
+
+Runs on awrawr-pc. Usage: morphe-tax-collector [--init] [--once]
+"""
+import hashlib
+import json
+import os
+import subprocess
+import sys
+import tempfile
+from datetime import datetime, timezone
+
+ADB = "/usr/bin/adb"
+PKG = "com.facebook.aura"
+HOME = os.path.expanduser("~")
+BASELINE = os.path.join(HOME, "phone-lane", "aura_baseline.json")
+TAXLOG = os.path.join(HOME, "phone-lane", "morphe-tax.jsonl")
+PIN_FILE = os.path.join(HOME, "phone-lane", "pinned_target")
+
+
+def target():
+    try:
+        return open(PIN_FILE).read().strip()
+    except Exception:
+        return None
+
+
+def sh(*args, timeout=30):
+    r = subprocess.run(args, capture_output=True, text=True, timeout=timeout)
+    return r.returncode, r.stdout, r.stderr
+
+
+def shell(cmd, timeout=30):
+    t = target()
+    if not t:
+        return 1, "", "no pinned target"
+    return sh(ADB, "-s", t, "shell", cmd, timeout=timeout)
+
+
+def pkg_field(key, first_token=False):
+    rc, out, _ = shell(f"dumpsys package {PKG} | grep -m1 '{key}='")
+    if rc == 0 and "=" in out:
+        val = out.strip().split("=", 1)[1]
+        return val.split()[0] if first_token else val
+    return None
+
+
+def apk_sha256():
+    rc, out, _ = shell(f"pm path {PKG}")
+    if rc != 0 or "package:" not in out:
+        return None, "pm path failed"
+    remote = out.strip().split("package:")[1].split()[0]
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".apk") as tf:
+        local = tf.name
+    t = target()
+    rc, _, err = sh(ADB, "-s", t, "pull", remote, local, timeout=120)
+    if rc != 0:
+        return None, f"pull failed: {err[:100]}"
+    h = hashlib.sha256()
+    with open(local, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    os.unlink(local)
+    return h.hexdigest(), None
+
+
+def login_probe():
+    """Filenames/sizes only. Never reads contents."""
+    rc, out, err = shell(f"run-as {PKG} ls -l shared_prefs databases 2>&1")
+    if rc != 0 or "not debuggable" in out or "Permission denied" in out:
+        return {"state": "unknown_no_root", "detail": (out or err).strip()[:120]}
+    files = []
+    for line in out.splitlines():
+        p = line.split()
+        if len(p) >= 8 and p[0].startswith("-"):
+            files.append({"name": p[-1], "bytes": p[4]})
+    return {"state": "listed", "entries": files[:20], "count": len(files)}
+
+
+def collect():
+    snap = {"ts": datetime.now(timezone.utc).isoformat(), "pkg": PKG}
+    snap["versionName"] = pkg_field("versionName")
+    snap["versionCode"] = pkg_field("versionCode", first_token=True)
+    snap["lastUpdateTime"] = pkg_field("lastUpdateTime")
+    snap["firstInstallTime"] = pkg_field("firstInstallTime")
+    snap["installer"] = pkg_field("installerPackageName")
+    sha, err = apk_sha256()
+    snap["apk_sha256"] = sha
+    if err:
+        snap["apk_error"] = err
+    snap["login"] = login_probe()
+    return snap
+
+
+def main():
+    os.makedirs(os.path.dirname(BASELINE), exist_ok=True)
+    do_init = "--init" in sys.argv
+    snap = collect()
+    verdicts = []
+    if do_init or not os.path.exists(BASELINE):
+        with open(BASELINE, "w") as f:
+            json.dump(snap, f, indent=1)
+        verdicts.append("baseline_recorded")
+    else:
+        base = json.load(open(BASELINE))
+        if snap.get("versionCode") != base.get("versionCode"):
+            verdicts.append(f"PATCH_DRIFT: versionCode {base.get('versionCode')} -> {snap.get('versionCode')} (tax owed)")
+        if snap.get("apk_sha256") and base.get("apk_sha256") and \
+                snap["apk_sha256"] != base["apk_sha256"]:
+            verdicts.append("PATCH_DRIFT: apk sha256 changed (Aura replaced over Morphe patch)")
+        if snap.get("lastUpdateTime") != base.get("lastUpdateTime"):
+            verdicts.append(f"reinstall_or_update: lastUpdateTime {base.get('lastUpdateTime')} -> {snap.get('lastUpdateTime')} (verify login preserved)")
+        if snap.get("installer") not in (None, "null", ""):
+            verdicts.append(f"installer_present: {snap.get('installer')} (expected sideloaded/null for Morphe patch)")
+        if not verdicts:
+            verdicts.append("clean: no drift, tax paid")
+    snap["verdicts"] = verdicts
+    with open(TAXLOG, "a") as f:
+        f.write(json.dumps(snap) + "\n")
+    print(json.dumps({"ts": snap["ts"], "versionName": snap.get("versionName"),
+                      "versionCode": snap.get("versionCode"),
+                      "apk_sha256": (snap.get("apk_sha256") or "")[:16],
+                      "login": snap["login"].get("state"),
+                      "verdicts": verdicts}, indent=1))
+
+
+if __name__ == "__main__":
+    main()
