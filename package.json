@@ -1,0 +1,25 @@
+{
+  "name": "estate-vitals",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Estate management product with vital data logging and ledger support",
+  "type": "module",
+  "bin": {
+    "estate-vitals": "./bin/start.ts",
+    "estate-keeper": "./bin/keeper.ts"
+  },
+  "scripts": {
+    "dev": "bun --hot run bin/start.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint": "biome check .",
+    "fmt": "biome format --write .",
+    "build": "bun build bin/start.ts --target=bun --outdir=./dist"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-types": "latest",
+    "typescript": "^5.3.3",
+    "@biomejs/biome": "^1.7.2"
+  }
+}
