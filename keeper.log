@@ -29273,3 +29273,1580 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/toxic/.local/bin/
 {"ts": "2026-11-16T20:44:29.134058+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:33813", "10.0.0.77:43703"], "open_ports": [33813, 43703], "scan_ms": 784}
 {"ts": "2026-11-16T20:44:30.652843+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
 {"ts": "2026-11-16T20:44:32.373099+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T00:45:21.802057+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T00:45:22.924978+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:33813", "10.0.0.77:46057"], "open_ports": [33813, 46057], "scan_ms": 1121}
+{"ts": "2026-11-17T00:45:24.443418+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T00:45:26.141336+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T03:32:13.966102+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T03:32:30.025782+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16058}
+{"ts": "2026-11-17T03:32:42.729691+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T03:32:42.729753+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 28762}
+{"ts": "2026-11-17T04:48:28.890803+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T04:48:29.625966+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:33813", "10.0.0.77:46057"], "open_ports": [33813, 46057], "scan_ms": 735}
+{"ts": "2026-11-17T04:48:31.147077+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T04:48:32.894268+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T08:49:21.909172+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:49:22.929650+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:33813", "10.0.0.77:46057"], "open_ports": [33813, 46057], "scan_ms": 1020}
+{"ts": "2026-11-17T08:49:24.455055+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:49:26.173149+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T08:51:56.211101+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:52:12.257825+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16046}
+{"ts": "2026-11-17T08:52:16.292912+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:52:16.292980+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 20081}
+{"ts": "2026-11-17T08:52:31.297127+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:52:47.120279+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15823}
+{"ts": "2026-11-17T08:52:50.086638+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:52:50.086715+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18789}
+{"ts": "2026-11-17T08:53:05.090731+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:53:20.853528+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15762}
+{"ts": "2026-11-17T08:53:23.686424+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:53:23.686495+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18595}
+{"ts": "2026-11-17T08:53:38.690397+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:53:54.542878+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15852}
+{"ts": "2026-11-17T08:53:58.308922+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:53:58.308984+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19618}
+{"ts": "2026-11-17T08:54:13.312654+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:54:29.214507+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-17T08:54:33.253402+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:54:33.253474+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T08:54:48.257391+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:55:03.893122+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15635}
+{"ts": "2026-11-17T08:55:08.452833+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:55:08.452901+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 20195}
+{"ts": "2026-11-17T08:55:23.456476+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:55:39.121516+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15664}
+{"ts": "2026-11-17T08:55:41.285545+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:55:41.285613+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 17829}
+{"ts": "2026-11-17T08:55:56.289292+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:56:12.191800+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-17T08:56:16.229330+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:56:16.229403+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T08:56:31.233252+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:56:46.973173+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15739}
+{"ts": "2026-11-17T08:56:48.996948+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:56:48.997008+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 17763}
+{"ts": "2026-11-17T08:57:04.000942+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:57:19.809214+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15808}
+{"ts": "2026-11-17T08:57:21.573351+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:57:21.573427+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 17572}
+{"ts": "2026-11-17T08:57:36.577082+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:57:52.266747+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15689}
+{"ts": "2026-11-17T08:57:55.495531+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:57:55.495613+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18918}
+{"ts": "2026-11-17T08:58:10.499400+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:58:26.271580+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T08:58:30.436983+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:58:30.437054+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-17T08:58:45.440950+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:59:01.214831+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T08:59:05.381333+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:59:05.381408+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T08:59:20.385257+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T08:59:36.159159+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T08:59:40.326109+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T08:59:40.326176+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T08:59:55.329895+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:00:11.105226+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T09:00:15.270128+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:00:15.270188+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:00:30.273916+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:00:31.002760+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:40983"], "open_ports": [40983], "scan_ms": 728}
+{"ts": "2026-11-17T09:00:32.519521+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:00:34.135452+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T09:00:49.139038+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:01:05.197082+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16057}
+{"ts": "2026-11-17T09:01:20.996444+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:01:20.996506+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 31857}
+{"ts": "2026-11-17T09:01:36.000562+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:01:52.014754+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16014}
+{"ts": "2026-11-17T09:01:54.853307+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:01:54.853383+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18852}
+{"ts": "2026-11-17T09:02:09.857006+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:02:25.761285+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-17T09:02:29.797471+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:02:29.797539+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:02:44.801599+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:03:00.517368+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15715}
+{"ts": "2026-11-17T09:03:02.951638+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:03:02.951711+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18150}
+{"ts": "2026-11-17T09:03:17.955630+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:03:33.717082+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15761}
+{"ts": "2026-11-17T09:03:36.549733+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:03:36.549791+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18594}
+{"ts": "2026-11-17T09:03:51.553776+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:04:07.330933+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15777}
+{"ts": "2026-11-17T09:04:11.492970+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:04:11.493030+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:04:26.496747+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:04:42.401508+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-17T09:04:46.437174+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:04:46.437240+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:05:01.442035+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:05:02.719152+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:39357"], "open_ports": [39357], "scan_ms": 1276}
+{"ts": "2026-11-17T09:05:04.288952+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:05:05.959003+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T09:07:05.989032+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:07:21.763253+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T09:07:25.797347+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:07:25.797427+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19808}
+{"ts": "2026-11-17T09:07:40.802130+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:07:56.696284+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15894}
+{"ts": "2026-11-17T09:07:59.398021+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:07:59.398093+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18595}
+{"ts": "2026-11-17T09:08:14.402551+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:08:30.164869+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15762}
+{"ts": "2026-11-17T09:08:32.996694+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:08:32.996772+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18594}
+{"ts": "2026-11-17T09:08:48.000435+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:09:03.905932+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15905}
+{"ts": "2026-11-17T09:09:07.941041+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:09:07.941112+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:09:22.944890+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:09:38.723660+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-17T09:09:42.885250+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:09:42.885323+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:09:57.888988+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:10:13.658303+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15769}
+{"ts": "2026-11-17T09:10:17.830001+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:10:17.830072+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T09:10:32.833908+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:10:48.742552+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15908}
+{"ts": "2026-11-17T09:10:52.773846+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:10:52.773914+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:11:07.777769+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:11:23.556737+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-17T09:11:27.716941+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:11:27.717009+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:11:42.720784+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:11:58.494327+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T09:12:02.660914+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:12:02.660984+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:12:17.665051+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:12:33.569731+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-17T09:12:37.605158+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:12:37.605220+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:12:52.608938+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:13:08.390244+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15781}
+{"ts": "2026-11-17T09:13:12.549193+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:13:12.549271+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:13:27.553409+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:13:43.327680+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T09:13:47.493129+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:13:47.493190+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:14:02.496943+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:14:18.400593+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-17T09:14:22.438126+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:14:22.438201+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T09:14:37.442229+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:14:53.216466+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T09:14:57.381376+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:14:57.381444+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:15:12.385345+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:15:28.163997+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-17T09:15:32.325879+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:15:32.325946+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:15:47.329652+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:16:03.105130+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T09:16:07.269228+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:16:07.269296+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:16:22.272921+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:16:38.048556+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T09:16:42.214247+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:16:42.214321+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T09:16:57.218150+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:17:12.991122+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T09:17:17.158152+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:17:17.158219+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:17:32.161918+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:17:47.936317+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T09:17:52.100979+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:17:52.101049+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:18:07.104791+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:18:23.008592+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-17T09:18:27.044895+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:18:27.044958+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:18:42.048585+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:18:57.823896+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T09:19:01.988884+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:19:01.988954+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:19:16.992941+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:19:32.774500+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15781}
+{"ts": "2026-11-17T09:19:36.934369+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:19:36.934452+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T09:19:51.937995+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:20:07.719113+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-17T09:20:11.878158+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:20:11.878230+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:20:26.882020+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:20:42.656705+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T09:20:46.821926+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:20:46.821996+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:21:01.826097+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:21:17.600223+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T09:21:21.764809+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:21:21.764870+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T09:21:36.768736+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:21:52.543806+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T09:21:56.710326+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:21:56.710402+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T09:22:11.714196+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:22:27.488153+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T09:22:31.654251+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:22:31.654320+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:22:46.658278+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:23:02.436358+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15777}
+{"ts": "2026-11-17T09:23:06.597462+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:23:06.597530+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:23:21.601297+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:23:37.505553+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-17T09:23:41.541089+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:23:41.541154+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:23:56.544839+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:24:12.456707+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15911}
+{"ts": "2026-11-17T09:24:16.485644+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:24:16.485711+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:24:31.489491+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:24:47.399098+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15909}
+{"ts": "2026-11-17T09:24:51.428761+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:24:51.428832+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:25:06.432670+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:25:22.209045+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-17T09:25:26.373268+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:25:26.373330+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:25:41.377077+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:25:57.152943+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T09:26:01.317528+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:26:01.317602+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:26:16.321723+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:26:32.096370+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T09:26:36.261446+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:26:36.261507+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:26:51.265333+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:27:07.038460+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T09:27:11.204990+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:27:11.205050+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:27:26.209236+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:27:41.988130+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-17T09:27:46.149018+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:27:46.149086+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:28:01.152812+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:28:16.926775+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T09:28:21.092833+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:28:21.092905+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:28:36.097153+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:28:51.870640+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T09:28:56.036659+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:28:56.036722+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:29:11.040611+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:29:26.816849+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-17T09:29:30.982776+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:29:30.982850+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-17T09:29:45.987616+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:30:01.887015+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15899}
+{"ts": "2026-11-17T09:30:05.926057+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:30:05.926124+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T09:30:20.929974+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:30:36.704482+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T09:30:40.869959+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:30:40.870034+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:30:55.874301+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:31:11.647362+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T09:31:15.813157+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:31:15.813228+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T09:31:30.817021+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:31:46.588191+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T09:31:50.757607+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:31:50.757680+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:32:05.761592+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:32:21.537061+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T09:32:25.701148+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:32:25.701216+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:32:40.704906+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:32:56.476149+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T09:33:00.644974+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:33:00.645047+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:33:15.649227+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:33:31.554541+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15905}
+{"ts": "2026-11-17T09:33:35.589216+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:33:35.589286+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T09:33:50.592937+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:34:06.368651+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T09:34:10.532935+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:34:10.533005+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:34:25.536999+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:34:41.569326+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16032}
+{"ts": "2026-11-17T09:34:45.478254+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:34:45.478321+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T09:35:00.482905+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:35:16.254645+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T09:35:20.420952+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:35:20.421021+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T09:35:35.424831+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:35:51.200643+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T09:35:55.365683+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:35:55.365747+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T09:36:10.369786+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:36:19.869948+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 9500}
+{"ts": "2026-11-17T09:36:21.388264+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:36:21.388342+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 11018}
+{"ts": "2026-11-17T09:36:36.392177+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T09:36:37.773384+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:33551"], "open_ports": [33551], "scan_ms": 1381}
+{"ts": "2026-11-17T09:36:39.289050+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T09:36:40.865573+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T12:51:29.118850+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T12:51:29.886117+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:33551", "10.0.0.77:35809"], "open_ports": [33551, 35809], "scan_ms": 767}
+{"ts": "2026-11-17T12:51:31.404205+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T12:51:33.160715+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T16:52:22.162972+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T16:52:22.928905+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:33551", "10.0.0.77:39561"], "open_ports": [33551, 39561], "scan_ms": 765}
+{"ts": "2026-11-17T16:52:24.454724+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T16:52:26.144394+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T17:58:27.151245+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T17:58:42.910195+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15758}
+{"ts": "2026-11-17T17:58:47.077692+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T17:58:47.077774+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19926}
+{"ts": "2026-11-17T17:59:02.082291+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T17:59:17.760433+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15678}
+{"ts": "2026-11-17T17:59:21.125732+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T17:59:21.125807+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19043}
+{"ts": "2026-11-17T17:59:36.129752+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T17:59:52.082347+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15952}
+{"ts": "2026-11-17T17:59:54.917470+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T17:59:54.917537+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18787}
+{"ts": "2026-11-17T18:00:09.921303+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:00:25.700079+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-17T18:00:29.862365+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:00:29.862441+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:00:44.866061+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:01:00.776536+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15910}
+{"ts": "2026-11-17T18:01:04.805192+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:01:04.805262+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:01:19.808895+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:01:35.583608+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T18:01:39.748592+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:01:39.748663+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:01:54.752271+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:02:10.525908+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:02:14.693217+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:02:14.693288+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:02:29.696922+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:02:45.471148+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T18:02:49.637622+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:02:49.637692+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:03:04.641777+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:03:20.540641+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15898}
+{"ts": "2026-11-17T18:03:24.581958+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:03:24.582020+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:03:39.585853+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:03:55.365904+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15779}
+{"ts": "2026-11-17T18:03:59.526253+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:03:59.526337+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:04:14.530392+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:04:30.303383+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T18:04:34.471815+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:04:34.471894+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:04:49.475708+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:05:05.384352+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15908}
+{"ts": "2026-11-17T18:05:09.413558+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:05:09.413630+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-17T18:05:24.417477+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:05:40.322260+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-17T18:05:44.359259+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:05:44.359330+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:05:59.363034+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:06:15.276154+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15912}
+{"ts": "2026-11-17T18:06:19.301073+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:06:19.301138+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:06:34.305117+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:06:50.080130+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T18:06:54.244749+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:06:54.244811+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:07:09.248464+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:07:25.152333+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-17T18:07:29.189092+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:07:29.189164+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:07:44.193185+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:07:59.968226+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T18:08:04.133364+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:08:04.133429+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:08:19.137015+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:08:35.049504+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15912}
+{"ts": "2026-11-17T18:08:39.077181+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:08:39.077244+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:08:54.080989+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:09:09.855026+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:09:14.020512+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:09:14.020591+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:09:29.024323+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:09:44.797701+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:09:48.965776+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:09:48.965849+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:10:03.969680+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:10:19.748552+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-17T18:10:23.909672+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:10:23.909747+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:10:38.913604+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:10:54.818549+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-17T18:10:58.854586+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:10:58.854659+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:11:13.858584+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:11:29.892608+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16033}
+{"ts": "2026-11-17T18:11:33.797997+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:11:33.798072+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:11:48.802171+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:12:04.575317+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:12:08.741418+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:12:08.741489+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:12:23.745266+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:12:39.655447+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15910}
+{"ts": "2026-11-17T18:12:43.685623+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:12:43.685696+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:12:58.689494+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:13:14.591402+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-17T18:13:18.629072+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:13:18.629143+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:13:33.632788+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:13:49.403964+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T18:13:53.573402+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:13:53.573477+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:14:08.577257+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:14:24.488552+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15911}
+{"ts": "2026-11-17T18:14:28.517474+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:14:28.517536+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:14:43.521385+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:14:59.297943+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-17T18:15:03.460980+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:15:03.461056+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:15:18.464905+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:15:34.240390+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T18:15:38.405186+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:15:38.405249+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:15:53.408901+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:16:09.183833+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T18:16:13.349017+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:16:13.349086+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:16:28.352905+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:16:44.131046+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-17T18:16:48.292999+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:16:48.293069+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:17:03.296682+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:17:19.209669+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15912}
+{"ts": "2026-11-17T18:17:23.237822+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:17:23.237893+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:17:38.241522+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:17:54.014425+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T18:17:58.180608+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:17:58.180678+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:18:13.184782+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:18:28.964618+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15779}
+{"ts": "2026-11-17T18:18:33.124848+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:18:33.124915+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:18:48.128743+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:19:04.044179+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15915}
+{"ts": "2026-11-17T18:19:08.070486+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:19:08.070557+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:19:23.074691+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:19:38.846337+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T18:19:43.013055+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:19:43.013116+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:19:58.016933+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:20:13.790796+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:20:17.958135+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:20:17.958213+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:20:32.962871+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:20:48.865542+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-17T18:20:52.901183+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:20:52.901255+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:21:07.905041+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:21:23.680391+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T18:21:27.845418+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:21:27.845495+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:21:42.849283+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:21:58.757589+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15908}
+{"ts": "2026-11-17T18:22:02.788855+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:22:02.788925+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:22:17.792503+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:22:33.707319+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15914}
+{"ts": "2026-11-17T18:22:37.733823+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:22:37.733897+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:22:52.737697+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:23:08.639235+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-17T18:23:12.677078+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:23:12.677139+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:23:27.681037+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:23:43.714423+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16033}
+{"ts": "2026-11-17T18:23:47.621708+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:23:47.621778+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:24:02.625683+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:24:18.404946+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15779}
+{"ts": "2026-11-17T18:24:22.564879+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:24:22.564946+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:24:37.568561+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:24:53.344971+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-17T18:24:57.509092+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:24:57.509157+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:25:12.512870+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:25:28.418477+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15905}
+{"ts": "2026-11-17T18:25:32.453094+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:25:32.453164+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:25:47.456899+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:26:03.238906+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15781}
+{"ts": "2026-11-17T18:26:07.397080+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:26:07.397152+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:26:22.400963+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:26:38.437691+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16036}
+{"ts": "2026-11-17T18:26:42.341340+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:26:42.341417+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:26:57.345111+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:27:13.123767+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-17T18:27:17.285820+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:27:17.285892+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:27:32.289767+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:27:48.193346+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-17T18:27:52.230092+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:27:52.230161+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:28:07.234039+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:28:23.005937+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T18:28:27.172652+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:28:27.172720+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:28:42.176479+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:28:57.949704+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:29:02.118409+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:29:02.118485+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:29:17.122474+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:29:32.895275+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T18:29:37.061922+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:29:37.061999+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:29:52.065871+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:30:07.839829+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:30:12.005444+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:30:12.005518+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:30:27.009370+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:30:42.780592+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T18:30:46.948821+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:30:46.948881+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:31:01.952625+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:31:17.859853+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15907}
+{"ts": "2026-11-17T18:31:21.893097+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:31:21.893158+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:31:36.897038+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:31:52.934127+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16036}
+{"ts": "2026-11-17T18:31:56.837247+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:31:56.837317+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:32:11.841211+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:32:27.613688+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T18:32:31.780682+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:32:31.780750+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:32:46.784552+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:33:02.557632+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T18:33:06.726229+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:33:06.726298+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:33:21.729921+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:33:37.504055+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T18:33:41.668861+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:33:41.668931+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:33:56.672620+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:34:12.579782+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15907}
+{"ts": "2026-11-17T18:34:16.613386+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:34:16.613459+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:34:31.616951+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:34:47.397473+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-17T18:34:51.557343+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:34:51.557428+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:35:06.561477+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:35:22.334061+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T18:35:26.502821+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:35:26.502901+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:35:41.506891+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:35:57.281534+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T18:36:01.445090+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:36:01.445151+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:36:16.449253+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:36:32.230720+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15781}
+{"ts": "2026-11-17T18:36:36.389737+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:36:36.389801+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:36:51.394304+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:37:07.297113+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-17T18:37:11.332901+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:37:11.332974+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:37:26.336876+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:37:42.239537+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-17T18:37:46.277923+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:37:46.277996+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:38:01.281721+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:38:17.054235+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T18:38:21.220634+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:38:21.220696+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:38:36.224301+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:38:52.000479+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-17T18:38:56.165306+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:38:56.165374+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:39:11.170425+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:39:26.942206+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T18:39:31.108540+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:39:31.108610+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:39:46.112485+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:40:01.886613+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:40:06.053441+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:40:06.053508+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:40:21.057497+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:40:36.959200+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-17T18:40:40.996798+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:40:40.996877+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:40:56.000710+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:41:11.902506+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-17T18:41:15.942887+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:41:15.942959+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-17T18:41:30.946674+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:41:46.718425+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T18:41:50.884589+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:41:50.884660+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-17T18:42:05.888376+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:42:21.798539+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15910}
+{"ts": "2026-11-17T18:42:25.830746+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:42:25.830817+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-17T18:42:40.834806+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:42:56.606765+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-17T18:43:00.772766+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:43:00.772840+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-17T18:43:15.777028+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:43:31.552372+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T18:43:35.717319+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:43:35.717392+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:43:50.721101+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:44:06.493914+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-17T18:44:10.662921+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:44:10.663001+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:44:25.667318+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:44:41.569741+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-17T18:44:45.604998+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:44:45.605071+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-17T18:45:00.608711+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:45:16.382045+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:45:20.550069+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:45:20.550137+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:45:35.554065+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:45:51.328530+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T18:45:55.493350+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:45:55.493426+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:46:10.497102+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:46:26.273234+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-17T18:46:30.437541+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:46:30.437615+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:46:45.441345+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:47:01.343993+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-17T18:47:05.381048+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:47:05.381113+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:47:20.384763+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:47:36.288259+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-17T18:47:40.325355+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:47:40.325420+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:47:55.329430+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:48:11.108109+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-17T18:48:15.269918+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:48:15.269987+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-17T18:48:30.273704+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:48:46.042906+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15769}
+{"ts": "2026-11-17T18:48:50.212683+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:48:50.212743+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-17T18:49:05.216675+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:49:20.992049+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T18:49:25.157889+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:49:25.157958+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-17T18:49:40.161485+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:49:55.936675+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-17T18:50:00.101451+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:50:00.101529+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:50:15.105412+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:50:31.004960+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15899}
+{"ts": "2026-11-17T18:50:35.044935+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:50:35.044998+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:50:50.048873+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:51:05.823200+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-17T18:51:09.988810+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:51:09.988881+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:51:24.992766+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:51:40.894111+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-17T18:51:44.935054+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:51:44.935129+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-17T18:51:59.939326+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:52:15.712459+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-17T18:52:19.878499+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:52:19.878568+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-17T18:52:34.882627+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T18:52:36.360566+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:39561", "10.0.0.77:46633"], "open_ports": [39561, 46633], "scan_ms": 1477}
+{"ts": "2026-11-17T18:52:37.905197+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T18:52:49.423620+00:00", "event": "candidate_rejected", "target": "10.0.0.77:39561", "reason": "model_mismatch_l"}
+{"ts": "2026-11-17T18:52:51.134161+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T20:55:23.337362+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T20:55:24.069235+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:39561", "10.0.0.77:46633"], "open_ports": [39561, 46633], "scan_ms": 731}
+{"ts": "2026-11-17T20:55:25.585472+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T20:55:37.101951+00:00", "event": "candidate_rejected", "target": "10.0.0.77:39561", "reason": "model_mismatch_l"}
+{"ts": "2026-11-17T20:55:38.939849+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-17T23:20:56.184630+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:20:56.765033+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 579}
+{"ts": "2026-11-17T23:20:58.275788+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:20:58.275853+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 2090}
+{"ts": "2026-11-17T23:21:13.279571+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:21:13.859946+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 580}
+{"ts": "2026-11-17T23:21:15.370597+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:21:15.370676+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 2091}
+{"ts": "2026-11-17T23:21:30.374476+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:21:30.934874+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 560}
+{"ts": "2026-11-17T23:21:32.445815+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:21:32.445884+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 2071}
+{"ts": "2026-11-17T23:21:47.449799+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:21:48.009193+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 559}
+{"ts": "2026-11-17T23:21:49.520533+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:21:49.520603+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 2070}
+{"ts": "2026-11-17T23:22:04.524481+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:22:07.690147+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 3165}
+{"ts": "2026-11-17T23:22:09.201225+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:22:09.201293+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 4676}
+{"ts": "2026-11-17T23:22:24.205141+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:22:24.778050+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 572}
+{"ts": "2026-11-17T23:22:26.289969+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:22:26.290039+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 2084}
+{"ts": "2026-11-17T23:22:41.293734+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:22:54.128817+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 12834}
+{"ts": "2026-11-17T23:22:55.639355+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:22:55.639429+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 14345}
+{"ts": "2026-11-17T23:23:10.643166+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:23:11.211849+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 568}
+{"ts": "2026-11-17T23:23:12.722908+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:23:12.722980+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 2079}
+{"ts": "2026-11-17T23:23:27.726944+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:23:43.521748+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15794}
+{"ts": "2026-11-17T23:23:47.684925+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:23:47.684987+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19957}
+{"ts": "2026-11-17T23:24:02.688612+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:24:15.123947+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 12435}
+{"ts": "2026-11-17T23:24:16.670916+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:24:16.670987+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 13982}
+{"ts": "2026-11-17T23:24:31.674475+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-17T23:24:32.364829+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:39561", "10.0.0.77:43215"], "open_ports": [39561, 43215], "scan_ms": 690}
+{"ts": "2026-11-17T23:24:33.881531+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-17T23:24:45.401511+00:00", "event": "candidate_rejected", "target": "10.0.0.77:39561", "reason": "model_mismatch_l"}
+{"ts": "2026-11-17T23:24:47.069872+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-18T00:58:18.791158+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T00:58:19.528501+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:39561", "10.0.0.77:43215"], "open_ports": [39561, 43215], "scan_ms": 736}
+{"ts": "2026-11-18T00:58:21.045341+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T00:58:32.563740+00:00", "event": "candidate_rejected", "target": "10.0.0.77:39561", "reason": "model_mismatch_l"}
+{"ts": "2026-11-18T00:58:34.259485+00:00", "event": "keeper_error", "err": "[Errno 2] No such file or directory: '/home/toxic/.local/bin/mobilerun'"}
+{"ts": "2026-11-18T01:10:49.459240+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:11:05.343471+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15884}
+{"ts": "2026-11-18T01:11:08.709564+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:11:08.709639+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19250}
+{"ts": "2026-11-18T01:11:23.716636+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:11:39.488329+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T01:11:43.654508+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:11:43.654576+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-18T01:11:58.658512+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:12:14.326371+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15667}
+{"ts": "2026-11-18T01:12:17.959538+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:12:17.959604+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19301}
+{"ts": "2026-11-18T01:12:32.963432+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:12:48.736259+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T01:12:51.558047+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:12:51.558111+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18594}
+{"ts": "2026-11-18T01:13:06.562001+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:13:22.333922+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T01:13:25.157151+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:13:25.157210+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 18595}
+{"ts": "2026-11-18T01:13:40.161110+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:13:56.192875+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16031}
+{"ts": "2026-11-18T01:14:00.101421+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:14:00.101480+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:14:15.105268+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:14:30.880166+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T01:14:35.046372+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:14:35.046478+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T01:14:50.050416+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:15:05.828366+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15777}
+{"ts": "2026-11-18T01:15:09.989029+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:15:09.989088+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T01:15:24.992859+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:15:40.896473+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-18T01:15:44.933427+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:15:44.933492+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:15:59.937539+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:16:15.839784+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T01:16:19.877058+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:16:19.877120+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:16:34.880997+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:16:50.657511+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-18T01:16:54.821511+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:16:54.821580+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:17:09.825708+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:17:25.597303+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T01:17:29.765277+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:17:29.765348+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:17:44.769478+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:18:00.544400+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T01:18:04.709940+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:18:04.710008+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:18:19.713895+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:18:35.618751+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-18T01:18:39.654161+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:18:39.654233+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:18:54.658461+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:19:10.435743+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15777}
+{"ts": "2026-11-18T01:19:14.597841+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:19:14.597911+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:19:29.601839+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:19:45.507234+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15905}
+{"ts": "2026-11-18T01:19:49.542886+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:19:49.542962+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T01:20:04.546750+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:20:20.458901+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15912}
+{"ts": "2026-11-18T01:20:24.486358+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:20:24.486446+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:20:39.490987+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:20:55.264138+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T01:20:59.431247+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:20:59.431318+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:21:14.435573+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:21:30.207481+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T01:21:34.374980+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:21:34.375054+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:21:49.379163+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:22:05.153003+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T01:22:09.317531+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:22:09.317598+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T01:22:24.322546+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:22:40.102375+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15779}
+{"ts": "2026-11-18T01:22:44.263182+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:22:44.263254+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:22:59.267156+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:23:15.168247+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15900}
+{"ts": "2026-11-18T01:23:19.205372+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:23:19.205448+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T01:23:34.209709+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:23:49.983711+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T01:23:54.152141+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:23:54.152216+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-18T01:24:09.156628+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:24:25.056054+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15899}
+{"ts": "2026-11-18T01:24:29.094272+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:24:29.094338+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-18T01:24:44.098464+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:25:00.001947+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-18T01:25:04.037062+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:25:04.037130+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T01:25:19.041281+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:25:34.954368+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15912}
+{"ts": "2026-11-18T01:25:38.981653+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:25:38.981718+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:25:53.985503+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:26:09.760040+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T01:26:13.926122+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:26:13.926188+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:26:28.930356+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:26:44.834075+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-18T01:26:48.869326+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:26:48.869397+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T01:27:03.873148+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:27:19.645383+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T01:27:23.812980+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:27:23.813050+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:27:38.817079+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:27:54.590149+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T01:27:58.757006+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:27:58.757070+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:28:13.761073+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:28:29.540350+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15779}
+{"ts": "2026-11-18T01:28:33.701768+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:28:33.701836+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:28:48.706836+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:29:04.483654+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-18T01:29:08.645106+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:29:08.645173+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T01:29:23.648957+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:29:39.429912+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-18T01:29:43.589836+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:29:43.589899+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:29:58.594077+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:30:14.374154+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15779}
+{"ts": "2026-11-18T01:30:18.532829+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:30:18.532896+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T01:30:33.536564+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:30:49.311839+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T01:30:53.478014+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:30:53.478079+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T01:31:08.481805+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:31:24.386646+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-18T01:31:28.421154+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:31:28.421221+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:31:43.425013+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:31:59.329556+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-18T01:32:03.365096+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:32:03.365154+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:32:18.369212+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:32:34.145292+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T01:32:38.309019+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:32:38.309087+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:32:53.312953+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:33:09.086676+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T01:33:13.252827+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:33:13.252895+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:33:28.256912+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:33:44.037125+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-18T01:33:48.198184+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:33:48.198254+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T01:34:03.202176+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:34:18.976019+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T01:34:23.141395+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:34:23.141465+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:34:38.145384+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:34:54.049944+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-18T01:34:58.085410+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:34:58.085477+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:35:13.089385+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:35:28.994688+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15905}
+{"ts": "2026-11-18T01:35:33.029571+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:35:33.029633+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:35:48.033518+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:36:03.812315+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-18T01:36:07.973839+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:36:07.973911+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:36:22.977827+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:36:38.755076+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15777}
+{"ts": "2026-11-18T01:36:42.916887+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:36:42.916953+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:36:57.920669+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:37:13.697319+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-18T01:37:17.861507+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:37:17.861572+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:37:32.865525+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:37:48.641570+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T01:37:52.804990+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:37:52.805052+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:38:07.808977+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:38:23.589392+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-18T01:38:27.749978+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:38:27.750048+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T01:38:42.753956+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:38:58.529821+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T01:39:02.693939+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:39:02.694015+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:39:17.697700+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:39:33.472766+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T01:39:37.637193+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:39:37.637265+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:39:52.640991+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:40:08.545927+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-18T01:40:12.581068+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:40:12.581136+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:40:27.585345+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:40:43.495247+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15909}
+{"ts": "2026-11-18T01:40:47.525811+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:40:47.525881+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:41:02.529781+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:41:18.432573+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T01:41:22.470186+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:41:22.470263+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:41:37.474525+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:41:53.248050+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T01:41:57.414109+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:41:57.414179+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:42:12.418088+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:42:28.191154+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T01:42:32.357516+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:42:32.357589+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:42:47.361470+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:43:03.136416+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T01:43:07.301093+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:43:07.301159+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:43:22.304920+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:43:38.080300+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T01:43:42.245671+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:43:42.245743+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:43:57.249628+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:44:13.284658+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16034}
+{"ts": "2026-11-18T01:44:17.189351+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:44:17.189424+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:44:32.193066+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:44:48.100132+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15906}
+{"ts": "2026-11-18T01:44:52.133412+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:44:52.133481+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:45:07.137327+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:45:22.913329+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T01:45:27.076960+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:45:27.077030+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:45:42.080744+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:45:57.856353+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T01:46:02.021171+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:46:02.021248+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:46:17.024954+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:46:32.799923+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T01:46:36.964791+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:46:36.964859+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:46:51.968548+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:47:07.870242+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-18T01:47:11.909414+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:47:11.909485+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:47:26.913370+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:47:42.944475+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16030}
+{"ts": "2026-11-18T01:47:46.854144+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:47:46.854213+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:48:01.858194+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:48:17.757967+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15899}
+{"ts": "2026-11-18T01:48:21.797627+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:48:21.797698+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:48:36.801421+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:48:52.704811+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-18T01:48:56.741463+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:48:56.741533+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:49:11.745627+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:49:27.647319+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-18T01:49:31.684931+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:49:31.685001+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:49:46.688697+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:50:02.603372+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15914}
+{"ts": "2026-11-18T01:50:06.629362+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:50:06.629447+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:50:21.634375+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:50:37.536909+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T01:50:41.573386+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:50:41.573459+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:50:56.577153+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:51:12.606894+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16029}
+{"ts": "2026-11-18T01:51:16.517576+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:51:16.517653+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:51:31.521513+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:51:47.426545+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-18T01:51:51.461143+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:51:51.461213+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:52:06.464956+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:52:22.239033+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T01:52:26.405305+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:52:26.405379+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:52:41.409225+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:52:57.322653+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15913}
+{"ts": "2026-11-18T01:53:01.349011+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:53:01.349080+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:53:16.352843+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:53:32.388328+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16035}
+{"ts": "2026-11-18T01:53:36.293034+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:53:36.293102+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:53:51.296786+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:54:07.071925+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T01:54:11.236964+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:54:11.237030+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:54:26.240830+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:54:42.013835+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T01:54:46.180914+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:54:46.180987+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:55:01.184975+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:55:16.959738+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T01:55:21.125466+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:55:21.125539+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:55:36.129432+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:55:51.902363+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T01:55:56.069371+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:55:56.069444+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:56:11.073281+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:56:26.854161+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-18T01:56:31.013028+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:56:31.013099+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:56:46.017022+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:57:01.919777+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T01:57:05.959265+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:57:05.959333+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-18T01:57:20.963320+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:57:36.869666+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15906}
+{"ts": "2026-11-18T01:57:40.901754+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:57:40.901817+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T01:57:55.906047+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:58:11.807825+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-18T01:58:15.846533+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:58:15.846599+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T01:58:30.850663+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:58:46.622383+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T01:58:50.788979+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:58:50.789053+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T01:59:05.792865+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:59:21.566222+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T01:59:25.732714+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T01:59:25.732781+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T01:59:40.736685+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T01:59:56.640253+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-18T02:00:00.678503+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:00:00.678575+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:00:15.682657+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:00:31.456619+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T02:00:35.622876+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:00:35.622944+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:00:50.626979+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:01:06.399413+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T02:01:10.565327+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:01:10.565408+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:01:25.569787+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:01:41.471355+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-18T02:01:45.510123+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:01:45.510198+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:02:00.513824+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:02:16.287077+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T02:02:20.453101+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:02:20.453160+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:02:35.457016+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:02:51.233062+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:02:55.396987+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:02:55.397050+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:03:10.400793+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:03:26.175854+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:03:30.341032+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:03:30.341094+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:03:45.344721+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:04:01.121219+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-18T02:04:05.284839+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:04:05.284909+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:04:20.288817+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:04:36.202347+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15913}
+{"ts": "2026-11-18T02:04:40.229166+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:04:40.229228+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:04:55.233250+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:05:11.012242+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-18T02:05:15.173745+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:05:15.173812+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:05:30.177880+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:05:46.080505+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:05:50.117426+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:05:50.117488+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:06:05.121290+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:06:21.021760+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15900}
+{"ts": "2026-11-18T02:06:25.062806+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:06:25.062886+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:06:40.066694+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:06:55.969142+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:07:00.006715+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:07:00.006788+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:07:15.010682+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:07:30.784079+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T02:07:34.949531+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:07:34.949604+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:07:49.953300+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:08:05.982497+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16029}
+{"ts": "2026-11-18T02:08:09.893731+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:08:09.893802+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:08:24.897593+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:08:40.929036+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16031}
+{"ts": "2026-11-18T02:08:44.837993+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:08:44.838064+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:08:59.841903+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:09:15.747347+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15905}
+{"ts": "2026-11-18T02:09:19.781254+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:09:19.781324+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:09:34.785036+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:09:50.690560+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15905}
+{"ts": "2026-11-18T02:09:54.725878+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:09:54.725939+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:10:09.730005+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:10:25.504308+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:10:29.669344+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:10:29.669410+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:10:44.673246+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:11:00.448825+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:11:04.612731+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:11:04.612792+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:11:19.616557+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:11:35.391736+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:11:39.557155+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:11:39.557232+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:11:54.561243+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:12:10.464153+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:12:14.502721+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:12:14.502786+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:12:29.506471+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:12:45.283414+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15776}
+{"ts": "2026-11-18T02:12:49.445360+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:12:49.445439+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:13:04.450621+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:13:20.230855+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-18T02:13:24.390896+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:13:24.390970+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:13:39.394921+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:13:55.166727+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T02:13:59.332740+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:13:59.332801+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-18T02:14:14.336623+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:14:30.245855+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15909}
+{"ts": "2026-11-18T02:14:34.277770+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:14:34.277837+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:14:49.281403+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:15:05.056870+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:15:09.220971+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:15:09.221032+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:15:24.225516+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:15:40.000537+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:15:44.165268+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:15:44.165340+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:15:59.169201+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:16:14.944983+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:16:19.109031+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:16:19.109100+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:16:34.113005+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:16:50.147939+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16034}
+{"ts": "2026-11-18T02:16:54.054296+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:16:54.054367+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:17:09.057905+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:17:24.960433+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:17:28.996966+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:17:28.997028+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:17:44.001129+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:17:59.775754+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:18:03.941849+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:18:03.941921+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:18:18.945938+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:18:34.846884+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15900}
+{"ts": "2026-11-18T02:18:38.884997+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:18:38.885059+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:18:53.888790+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:19:09.791203+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:19:13.830359+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:19:13.830437+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:19:28.834679+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:19:44.736350+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-18T02:19:48.773336+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:19:48.773406+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:20:03.777244+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:20:19.685357+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15907}
+{"ts": "2026-11-18T02:20:23.717503+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:20:23.717578+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:20:38.721500+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:20:54.501937+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-18T02:20:58.662144+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:20:58.662224+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:21:13.665945+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:21:29.568274+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:21:33.606351+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:21:33.606426+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:21:48.610489+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:22:04.522432+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15911}
+{"ts": "2026-11-18T02:22:08.549403+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:22:08.549475+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:22:23.552989+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:22:39.455022+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-18T02:22:43.493307+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:22:43.493385+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:22:58.497109+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:23:14.281486+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15784}
+{"ts": "2026-11-18T02:23:18.437943+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:23:18.438013+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:23:33.441696+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:23:49.213662+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T02:23:53.381014+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:23:53.381085+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:24:08.385110+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:24:24.287750+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:24:28.326599+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:24:28.326673+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:24:43.330651+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:24:59.240759+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15909}
+{"ts": "2026-11-18T02:25:03.269767+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:25:03.269838+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:25:18.273811+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:25:34.049988+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:25:38.214861+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:25:38.215586+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:25:53.219098+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:26:08.993896+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:26:13.469447+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:26:13.525316+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 20305}
+{"ts": "2026-11-18T02:26:28.536739+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:26:44.318811+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15781}
+{"ts": "2026-11-18T02:26:48.486456+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:26:48.486532+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19949}
+{"ts": "2026-11-18T02:27:03.490841+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:27:19.402291+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15911}
+{"ts": "2026-11-18T02:27:23.429524+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:27:23.429590+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:27:38.433624+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:27:54.213495+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15779}
+{"ts": "2026-11-18T02:27:58.375966+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:27:58.376049+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-18T02:28:13.380177+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:28:29.282292+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-18T02:28:33.317717+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:28:33.317788+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-18T02:28:48.321571+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:29:04.251618+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15929}
+{"ts": "2026-11-18T02:29:08.262138+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:29:08.262207+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:29:23.265942+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:29:39.168191+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:29:43.206741+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:29:43.206812+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:29:58.210811+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:30:14.129980+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15919}
+{"ts": "2026-11-18T02:30:18.149757+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:30:18.149829+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:30:33.153427+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:30:49.058665+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15905}
+{"ts": "2026-11-18T02:30:53.094280+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:30:53.094362+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:31:08.098346+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:31:24.135838+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16037}
+{"ts": "2026-11-18T02:31:28.038722+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:31:28.038797+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:31:43.043182+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:31:58.816230+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T02:32:02.981610+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:32:02.981684+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:32:17.985615+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:32:33.760886+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:32:37.927939+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:32:37.928012+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-18T02:32:52.932474+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:33:08.703137+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15770}
+{"ts": "2026-11-18T02:33:12.869803+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:33:12.869877+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-18T02:33:27.873979+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:33:43.646493+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T02:33:47.815195+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:33:47.815268+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:34:02.819323+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:34:18.592457+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T02:34:22.759814+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:34:22.759882+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:34:37.767571+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:34:53.536447+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15768}
+{"ts": "2026-11-18T02:34:57.701539+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:34:57.701611+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19933}
+{"ts": "2026-11-18T02:35:12.705791+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:35:28.483765+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15777}
+{"ts": "2026-11-18T02:35:32.647282+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:35:32.647354+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:35:47.651570+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:36:03.553481+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15901}
+{"ts": "2026-11-18T02:36:07.590696+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:36:07.590762+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:36:22.600859+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:36:38.366451+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15765}
+{"ts": "2026-11-18T02:36:42.536539+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:36:42.536613+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19935}
+{"ts": "2026-11-18T02:36:57.540609+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:37:13.586177+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16045}
+{"ts": "2026-11-18T02:37:17.477930+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:37:17.477990+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-18T02:37:32.482149+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:37:48.265641+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15783}
+{"ts": "2026-11-18T02:37:52.424567+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:37:52.424639+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-18T02:38:07.428810+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:38:23.200092+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T02:38:27.366263+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:38:27.366330+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-18T02:38:42.370657+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:38:58.273664+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:39:02.312193+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:39:02.312257+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:39:17.319558+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:39:33.087382+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15767}
+{"ts": "2026-11-18T02:39:37.256712+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:39:37.256786+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-18T02:39:52.261339+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:40:08.042234+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-18T02:40:12.197901+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:40:12.197972+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19936}
+{"ts": "2026-11-18T02:40:27.202038+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:40:42.992949+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15790}
+{"ts": "2026-11-18T02:40:47.142323+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:40:47.142393+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:41:02.147161+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:41:17.918784+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T02:41:22.085962+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:41:22.086042+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:41:37.090208+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:41:52.862618+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T02:41:57.029871+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:41:57.029935+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:42:12.033917+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:42:27.809962+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:42:31.973473+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:42:31.973535+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:42:46.977102+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:43:02.757273+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15780}
+{"ts": "2026-11-18T02:43:06.917352+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:43:06.917455+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:43:21.922516+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:43:37.826065+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15903}
+{"ts": "2026-11-18T02:43:41.861395+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:43:41.861465+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:43:56.865461+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:44:12.643215+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15777}
+{"ts": "2026-11-18T02:44:16.805771+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:44:16.805844+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:44:31.809849+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:44:47.584367+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:44:51.750029+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:44:51.750099+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:45:06.754120+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:45:22.533194+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15778}
+{"ts": "2026-11-18T02:45:26.693927+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:45:26.693998+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:45:41.697725+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:45:57.472883+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:46:01.637256+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:46:01.637329+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:46:16.641510+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:46:32.415897+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:46:36.582077+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:46:36.582155+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:46:51.585827+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:47:07.488227+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15902}
+{"ts": "2026-11-18T02:47:11.526863+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:47:11.526938+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:47:26.530660+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:47:42.301859+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T02:47:46.469363+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:47:46.469439+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:48:01.473194+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:48:17.247521+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967", "10.0.0.77:37844"], "open_ports": [37844], "scan_ms": 15774}
+{"ts": "2026-11-18T02:48:21.413795+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:48:26.020498+00:00", "event": "candidate_rejected", "target": "10.0.0.77:37844", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:48:26.020567+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 24547}
+{"ts": "2026-11-18T02:48:41.024644+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:48:56.804761+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15779}
+{"ts": "2026-11-18T02:49:00.966918+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:49:00.966990+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19942}
+{"ts": "2026-11-18T02:49:15.970778+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:49:31.745853+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:49:35.910659+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:49:35.910734+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:49:50.914655+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:50:06.688804+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:50:10.854569+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:50:10.854639+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:50:25.858859+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:50:41.633945+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:50:45.799070+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:50:45.799146+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:51:00.803307+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:51:16.575080+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T02:51:20.740927+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:51:20.740997+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19937}
+{"ts": "2026-11-18T02:51:35.744613+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:51:51.520299+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:51:55.685836+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:51:55.685898+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:52:10.689732+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:52:26.464162+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:52:30.629182+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:52:30.629256+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:52:45.633051+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:53:01.408644+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:53:05.574807+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:53:05.574884+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T02:53:20.578722+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:53:36.494977+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15916}
+{"ts": "2026-11-18T02:53:40.518913+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:53:40.518986+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:53:55.523061+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:54:11.297981+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:54:15.461615+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:54:15.461682+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:54:30.465735+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:54:46.240807+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T02:54:50.406608+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:54:50.406684+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:55:05.410891+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:55:21.190950+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15779}
+{"ts": "2026-11-18T02:55:25.349342+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:55:25.349422+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T02:55:40.353142+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:55:56.131147+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15777}
+{"ts": "2026-11-18T02:56:00.293904+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:56:00.293967+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:56:15.297997+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:56:31.332384+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16034}
+{"ts": "2026-11-18T02:56:35.237387+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:56:35.237468+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:56:50.241521+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:57:06.017471+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:57:10.181882+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:57:10.181953+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T02:57:25.186118+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:57:40.960195+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T02:57:45.125850+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:57:45.125923+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:58:00.130198+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:58:15.902296+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15771}
+{"ts": "2026-11-18T02:58:20.069808+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:58:20.069870+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T02:58:35.073774+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:58:50.849005+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T02:58:55.020947+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:58:55.021065+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19947}
+{"ts": "2026-11-18T02:59:10.025281+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T02:59:25.790498+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15765}
+{"ts": "2026-11-18T02:59:29.958337+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T02:59:29.958418+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19933}
+{"ts": "2026-11-18T02:59:44.962449+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:00:00.991283+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 16028}
+{"ts": "2026-11-18T03:00:04.903089+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:00:04.903164+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T03:00:19.907133+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:00:35.682933+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T03:00:39.851000+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:00:39.851075+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19943}
+{"ts": "2026-11-18T03:00:54.855350+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:01:10.622913+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15767}
+{"ts": "2026-11-18T03:01:14.789984+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:01:14.790057+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19934}
+{"ts": "2026-11-18T03:01:29.793901+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:01:45.567058+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T03:01:49.733976+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:01:49.734056+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T03:02:04.738189+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:02:20.511927+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T03:02:24.677652+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:02:24.677720+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T03:02:39.681522+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:02:55.586623+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15904}
+{"ts": "2026-11-18T03:02:59.621746+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:02:59.621819+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T03:03:14.625593+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:03:30.401660+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T03:03:34.566225+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:03:34.566295+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T03:03:49.570746+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:04:05.343336+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T03:04:09.509621+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:04:09.509692+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T03:04:24.513877+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:04:40.288300+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15774}
+{"ts": "2026-11-18T03:04:44.455100+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:04:44.455170+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19941}
+{"ts": "2026-11-18T03:04:59.458966+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:05:15.358159+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15899}
+{"ts": "2026-11-18T03:05:19.398941+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:05:19.399017+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T03:05:34.403274+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:05:50.175762+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T03:05:54.342701+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:05:54.342774+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T03:06:09.346998+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:06:25.119320+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15772}
+{"ts": "2026-11-18T03:06:29.285731+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:06:29.285802+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19938}
+{"ts": "2026-11-18T03:06:44.289988+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:07:00.188992+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15898}
+{"ts": "2026-11-18T03:07:04.230489+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:07:04.230565+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T03:07:19.234365+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:07:35.009525+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15775}
+{"ts": "2026-11-18T03:07:39.173805+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:07:39.173875+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T03:07:54.177757+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:08:10.085043+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15907}
+{"ts": "2026-11-18T03:08:14.117789+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:08:14.117864+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
+{"ts": "2026-11-18T03:08:29.121957+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:08:44.904770+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15782}
+{"ts": "2026-11-18T03:08:49.061556+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:08:49.061622+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19939}
+{"ts": "2026-11-18T03:09:04.065449+00:00", "event": "lane_down_detected"}
+{"ts": "2026-11-18T03:09:19.839176+00:00", "event": "heal_scan", "candidates": ["10.0.0.77:36967"], "open_ports": [], "scan_ms": 15773}
+{"ts": "2026-11-18T03:09:24.005470+00:00", "event": "candidate_rejected", "target": "10.0.0.77:36967", "reason": "serial_not_listed"}
+{"ts": "2026-11-18T03:09:24.005540+00:00", "event": "heal_failed", "reason": "all candidates rejected", "heal_ms": 19940}
